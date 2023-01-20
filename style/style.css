@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 90%;
+}
+
+section {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: gray;
+    height: 10vh;
+    width: 100vw;
+}
