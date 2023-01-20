@@ -11,8 +11,21 @@ main {
     align-items: center;
 }
 
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7e0ed;
+    width: 80vw;
+    height: 70vh;
+    box-shadow: 5px 3px 1em gray;
+    border-radius: 10px;
+}
+
 article {
+    background: white;
     width: 15vw;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +36,7 @@ img {
 }
 
 section {
+    text-align: center;
     width: 100%;
 }
 
