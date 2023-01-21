@@ -38,7 +38,7 @@ p {
 
 article {
     background: white;
-    width: 25vw;
+    max-width: 20vw;
     height: 90%;
     display: flex;
     justify-content: center;
